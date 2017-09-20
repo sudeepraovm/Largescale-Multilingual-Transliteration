@@ -1,4 +1,4 @@
 # Largescale-Multilingual-Transliteration
 
-Implementation of attention based model for mutilingual transliteration task. The implementation is adapted from the Seq2seq package in TensorFlow.
-The model was trained using a self-created Dataset by scraping over two millon proper nouns from Wikidata in 40 different languages.
+This is an implementation of a system to transliterate text from one language to a different language with a high accuracy. This was realized using an attention based model, which was adapted from the Seq2seq package in TensorFlow. The model was trained using a self-created Dataset by scraping over two million proper nouns from Wikidata in 40 different languages.                                                                                                                                                                                     
+NOTE: This is a research project that I am working on as a part of Prof. Mitesh Khapra’s research group. We are currently trying to improve the accuracy of transliteration for difficult languages like Chinese, Korean, Russian etc. We are also trying to create a unified model that can transliterate text from one language to multiple languages at a time.
